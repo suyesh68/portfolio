@@ -1,7 +1,12 @@
-
-<div class="headerBtnPosition">
+<div class="headerBtnPosition mt-4">
     <button  (click) = 'route(1)' class="headBtntab">Home</button>
     <button (click) = 'route(2)'  class="headBtntab">Projects</button>
     <button (click) = 'route(3)' class="headBtntab">Blogs</button>
     <button (click) = 'route(4)' class="headBtntab">Contact</button>
 </div>
+
+
+<app-home *ngIf = 'showHome'></app-home>
+<app-contact *ngIf = 'showContact'></app-contact>
+<app-blogs *ngIf ='showBlogs'></app-blogs>
+<app-projects *ngIf ='showProjects'></app-projects>
