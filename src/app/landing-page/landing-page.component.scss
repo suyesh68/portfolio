@@ -13,3 +13,39 @@
     background-color: beige;
     border-radius: 5px;
 }
+.bgColor {
+    background-color: rgb(20, 3, 20);
+    border: 1px solid rgb(109, 27, 109);
+    height: 600px;
+    
+}
+.profileImg {
+    //border: 5px solid rgb(224, 173, 224);
+    height: 599px;
+    width: 550px;
+    margin-left: 13%;
+}
+.textOverImg{
+    height: 350px;
+    border: 2px solid whitesmoke;
+    position: relative;
+    /* margin-right: 12px; */
+    margin-left: -100px;
+    background-color: white;
+    margin-top: 217px;
+    width: 420px;
+    padding: 10px;
+}
+.name{
+    font-size: 50px;
+    color: #380438;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 81px;
+}
+.tagLine {
+    letter-spacing: 8px;
+    font-size: 14px;
+    margin-left: 48px;
+    color: #380438;
+}

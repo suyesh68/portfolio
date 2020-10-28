@@ -8,36 +8,42 @@ import { Component, OnInit } from '@angular/core';
 export class LandingPageComponent implements OnInit {
 
   showProjects = false;
-  showHome = false;
+  showHome = true;
   showBlogs = false;
   showContact = false;
   constructor() { }
 
   ngOnInit(): void {
-    this.route(1);
   }
   route(index) {
   switch (index) {
-    case 1:
+    case 1: {
       this.showHome = true;
       this.showBlogs = false;
       this.showContact = false;
       this.showProjects = false;
-    case 2 :
+      break
+    }
+    case 2 : {
       this.showHome = false;
       this.showBlogs = false;
       this.showContact = false;
       this.showProjects = true;
-      case 3 :
+      break
+         }     case 3 : {
       this.showHome = false;
       this.showBlogs = true;
       this.showContact = false;
       this.showProjects = false;
-      case 4 :
+      break
+         }
+      case 4 :{
       this.showHome = false;
       this.showBlogs = false;
       this.showContact = true;
       this.showProjects = false;
+      break
+    }
   }
 }
 }

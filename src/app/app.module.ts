@@ -9,6 +9,7 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,12 +19,14 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     ProjectsComponent,
     BlogsComponent,
     ContactComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
