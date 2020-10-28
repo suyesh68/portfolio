@@ -14,7 +14,7 @@
     border-radius: 5px;
 }
 .bgColor {
-    background-color: rgb(20, 3, 20);
+    background-color: rgb(131, 52, 131);
     border: 1px solid rgb(109, 27, 109);
     height: 600px;
     
@@ -48,4 +48,13 @@
     font-size: 14px;
     margin-left: 48px;
     color: #380438;
+}
+.socialMedia {
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 25px;
+}
+.iconStyle {
+    height: 20px;
+    width: 20px;
 }
